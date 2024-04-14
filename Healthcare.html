@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Care</title>
+    <link rel="stylesheet" href="./nav.css">
+    <link rel="stylesheet" href="./index.css">
+    <style>
+        /* slider */
+        #div1 {
+            margin-top: 40px;
+            /* border: 1px solid red; */
+            height: 280px;
+        }
+
+        #slider {
+            max-width: 80%;
+            border-radius: 6px;
+            max-height: 280px;
+        }
+
+        /* slider */
+
+        #shop-by-products {
+            /* border: 1px solid red; */
+            width: 50%;
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .a3 {
+            width: 30%;
+
+        }
+
+        .Medicine-Details {
+            border: 1px solid white;
+            width: 80%;
+            height: auto;
+            margin: auto;
+            margin-top: 30%;
+            padding: 5px;
+
+        }
+
+        .h3 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: #333333;
+            margin-top: -2px;
+        }
+
+        .p {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #444444;
+            line-height: 24px;
+        }
+
+
+
+
+        /* footer start */
+
+        #footer {
+            width: 100%;
+            margin-top: 80px;
+            border: 1px solid #eef4ff;
+            height: auto;
+            background-color: #eef4ff;
+            display: flex;
+            justify-content: space-around;
+
+
+        }
+
+        .h5 {
+            font-family: sans-serif;
+            margin-top: 30px;
+        }
+
+        .p2 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 15px;
+        }
+
+        .Footer-Img {
+            width: 40px;
+            padding: 20px;
+            margin-left: -20px;
+            margin-top: -20px;
+        }
+
+        #footer4 {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+
+
+        /* footer end */
+
+        /* Media Query For Large Screen */
+
+
+        @media screen and (min-width:768px) and (max-width:1026px) {
+            
+            #shop-by-products{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
+                margin-top: -20px;
+                
+            }
+
+            .p3{
+                margin-left: 80%;
+            }
+
+            .Medicine-Details{
+                margin-top: 500px;
+            }
+        }
+
+        /* Media Query For Large Screen */
+
+
+
+        @media screen and (min-width:450px) and (max-width:767px) {
+            #shop-by-products{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                /* margin-top: -2px; */
+                
+            }
+
+            .p3{
+                margin-left: 80%;
+            }
+
+            .Medicine-Details{
+                margin-top: 650px;
+            }
+        
+        
+        }
+
+
+        /* Media Query For Large Screen */
+
+
+
+        @media screen and (min-width:150px) and (max-width:449px) {
+
+            #shop-by-products{
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                margin-top: -30px;
+                
+            }
+            .p3{
+                margin-left: 70%;
+            }
+
+
+
+            .Medicine-Details{
+                margin-top: 1250px;
+            }
+
+            #slider {
+                margin-top: -1px;
+        }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- nav bar -->
+    <div id="nav"></div>
+    <div id="nav2"></div>
+
+
+    <!-- nav bar -->
+
+    <!-- slider -->
+    <div id="div1">
+        <img id="slider" src="https://t3.ftcdn.net/jpg/03/43/98/90/240_F_343989048_8Qma5NCP8uad1xBpU3MqizghKUCoRrPP.jpg"
+            alt="Slideshow">
+    </div>
+
+    <!-- slider -->
+
+
+    <div id="shop-by-products">
+        <a href="./Top Products.html" class="a3"><img
+                src="https://cdn01.pharmeasy.in/dam/discovery/categoryImages/f10917087a483040b557e4b18204312c.png?f=png?dim=256x0"
+                alt="Top Products" class="img4">
+            <p class="p3">Top Products</p>
+        </a>
+        <a href="./Elederly care.html" class="a3"><img
+                src="https://cdn01.pharmeasy.in/dam/discovery/categoryImages/fa936f30b4563fc4abd187fb22fe5258.png?f=png?dim=256x0"
+                alt="Elder Care" class="img4">
+            <p class="p3">Elderly Care</p>
+        </a>
+        <a href="./Personal care.html" class="a3"><img
+                src="https://cdn01.pharmeasy.in/dam/discovery/categoryImages/1e622b0308ec3ab48887512eaa3488a5.png?f=png?dim=256x0"
+                alt="Personal care" class="img4">
+            <p class="p3">Personal Care</p>
+        </a>
+        <a href="./Healthcaredevices.html" class="a3"><img
+                src="https://cdn01.pharmeasy.in/dam/discovery/categoryImages/9cc9a28ea4513009966cae794114eefd.png?f=png?dim=256x0"
+                alt="Healthcare devices" class="img4">
+            <p class="p3">Healthcare Devices</p>
+        </a>
+        <a href="./Health food and Drink.html" class="a3"><img
+                src="https://cdn01.pharmeasy.in/dam/discovery/categoryImages/335dae76832d370c94f0440f5ba89e1f.png?f=png?dim=256x0"
+                alt="Health food drinks" class="img4">
+            <p class="p3">Health food and drinks</p>
+        </a>
+        <a href="./Skin Care.html" class="a3"><img
+                src="https://cdn01.pharmeasy.in/dam/discovery/categoryImages/ce48d6d71ace3892945f0b0a64c1f0e9.png?f=png?dim=256x0"
+                alt="Skincare" class="img4">
+            <p class="p3">Skin care</p>
+        </a>
+        <a href="./Mother and baby care.html" class="a3"><img
+                src="https://cdn01.pharmeasy.in/dam/discovery/categoryImages/11315fee93053980af48fd871bf687b8.png?f=png?dim=256x0"
+                alt="Mother and bodycare" class="img4">
+            <p class="p3">Mother and baby care</p>
+        </a>
+
+
+    </div>
+
+
+    <!--  -->
+    <div class="Medicine-Details">
+        <h3 class="h3">Shop Safely And Worry-Free On PharmEasy</h3>
+        <p class="p">PharmEasy is a renowned name in the online shopping of Over The Counter or healthcare products and
+            other daily essentials. Ordering online on PharmEasy is convenient, fast and hassle-free; you can avoid the
+            annoyance of queuing up at your local pharmacy and also avail of huge discounts of up to 80% OFF. Purchasing
+            the healthcare requirements such as medical devices and nutritional supplements that you need will no longer
+            burn a hole in your pocket. At PharmEasy, you are sure to find everything that you need because we have
+            products across all healthcare categories.</p>
+        <!--  -->
+        <h3 class="h3">Our most popular categories:</h3>
+        <p class="p">We have a range of categories and products, some which are:</p>
+        <!--  -->
+        <h3 class="h3">Devices</h3>
+        <p class="p">With the pandemic upending our lives, we have all realized that there are some medical devices that
+            we need to keep in our homes such as Oximeter, Thermometer, Inhaler, Blood pressure monitor, Glucometer.</p>
+        <!--  -->
+        <h3 class="h3">Personal care</h3>
+        <p class="p">Personal care products can include a wide range of products such as Bath products, , Skincare
+            essentials, Razor blades, Toothpaste and toothbrush, Wet wipes, Lip balm, Face masks, Hand sanitizer, etc.
+        </p>
+        <!--  -->
+        <h3 class="h3">Nutrition and fitness supplements</h3>
+        <p class="p">To give your health a helping hand, you can order a wide variety of health supplements including
+            Health drinks, Nutritional powder, Nutrition tablets/capsules.</p>
+        <!--  -->
+        <h3 class="h3">Ayurvedic care</h3>
+        <p class="p">Place your trust in the goodness of natural and organic ayurvedic products for an all-around
+            healthy mind and body. There’s plenty to choose from such as Aloe vera juice, Moringa capsules, Garlic
+            capsules.</p>
+        <!--  -->
+        <h3 class="h3">Home care</h3>
+        <p class="p">Home care products are things you need every day such as disinfectant spray, phenyl, dishwashing
+            liquid, etc. Get them all at spectacular discounts on PharmEasy.</p>
+        <!--  -->
+        <h3 class="h3">Baby and mom care</h3>
+        <p class="p">PharmEasy also has an impressive range of baby and mom care products including Diapers, Baby bath
+            products, Infant formula food, Mother’s health drinks, Diaper rash creams, Baby wipes.</p>
+        <!--  -->
+        <h3 class="h3">Our top brands:</h3>
+        <p class="p">Get products from the most famous and trusted brands including Accu-chek, Dettol, Horlicks,
+            Baidyanath, Sebamed.
+        </p>
+        <!--  -->
+        <h3 class="h3">You are safe with PharmEasy:
+        </h3>
+        <p class="p">Given the times, we are taking all precautions to ensure that we keep everyone safe - our customers
+            and the people we work with.
+        </p>
+        <!--  -->
+        <h3 class="h3">Youe safety is our priority</h3>
+        <p class="p">Stay safe at home and shop at your convenience from PharmEasy. All you have to do is place your
+            order and we will try to deliver it at the earliest.
+        </p>
+
+
+
+    </div>
+
+    <!--  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer start -->
+
+
+    <footer id="footer">
+
+        <div id="footer1">
+            <h4 class="h5">Company</h4>
+            <p class="p2">About Us</p>
+            <p class="p2">Careers</p>
+            <p class="p2">Blog</p>
+            <!--  -->
+            <h4 class="h5">Our Services</h4>
+            <p class="p2">Order Medicine</p>
+            <p class="p2">Healthcare Products</p>
+            <p class="p2">Lab Tests</p>
+            <!--  -->
+            <h4 class="h5">Our Payment Partners</h4>
+            <div id="footer4">
+                <img src="https://assets.pharmeasy.in/web-assets/_next/icons/gpay.svg" alt="Logo" class="Footer-Img">
+                <img src="https://assets.pharmeasy.in/web-assets/_next/icons/paytm.svg" alt="Logo" class="Footer-Img">
+                <img src="https://assets.pharmeasy.in/web-assets/_next/icons/amazon-pay.svg" alt="Logo"
+                    class="Footer-Img">
+                <img src="https://assets.pharmeasy.in/web-assets/_next/icons/phonepe.svg" alt="logo" class="Footer-Img">
+                <img src="https://assets.pharmeasy.in/web-assets/_next/icons/visa.svg" alt="logo" class="Footer-Img">
+
+
+            </div>
+
+        </div>
+
+        <div id="footer2">
+            <h4 class="h5">Featured Categories</h4>
+            <p class="p2"><a href="./Top Products.html">Top Products</a></p>
+            <p class="p2"><a href="./Elederly care.html">Elder Care</a></p>
+            <p class="p2"><a href="./Personal care.html">Personal Care</a></p>
+            <p class="p2"><a href="./Healthcaredevices.html">Health Care</a></p>
+            <p class="p2"><a href="./Health food and Drink.html">Health Food And Drink</a></p>
+            <p class="p2"><a href="./Skin Care.html">Skin Care</a></p>
+
+            <p class="p2"><a href="./Mother and baby care.html">Mother And Baby Care</a></p>
+
+
+
+
+
+
+        </div>
+        <div id="footer3">
+            <h4 class="h5">Need Help</h4>
+            <p class="p2">Browse All Medicines</p>
+            <p class="p2">Browse All Molecules</p>
+            <p class="p2">Browse All Cities</p>
+            <p class="p2">Browse All Stores</p>
+            <p class="p2">FAQs</p>
+            <p class="p2"></p>
+            <!-- -->
+            <h4 class="h5">Policy Info</h4>
+            <p class="p2">Editorial Policy</p>
+            <p class="p2">Privacy Policy</p>
+            <p class="p2">Tearm And Condition</p>
+            <p class="p2">Customer Support</p>
+            <p class="p2">Return Policy</p>
+
+        </div>
+    </footer>
+
+
+    <!-- Footer end -->
+
+
+
+
+
+</body>
+
+</html>
+<script type="module" src="./Healthcare.js"></script>
+
+
+<script src="./slider.js"></script>
